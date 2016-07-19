@@ -34,9 +34,6 @@ Before running any experiment, you should follow the following instructions:
 ##### Mex files
 Open Matlab and compile the following two mex files:
 
-code/generic_functions/chi_squared_c.c
-code_weights/compute_distances_c.c
-
 ```Shell
     cwd=cd; %local path where you have installed AP release
     cd code/generic_functions/
@@ -58,11 +55,12 @@ code_weights/compute_distances_c.c
 
 #### DISCOVERING CATEGORIES:
 
-We provide, in the folder "experiments" the corresponding Matlab scripts
+We provide in the folder "experiments" the corresponding Matlab scripts
 to use the AP models in the three datasets described in our paper.
 
-For example, to discover categories in the Caltech-256, simply, go to
-the its corresponding folder and:
+For example, to discover categories in the Caltech-256, simply, open Matlab
+and go to the corresponding folder and run the provided script.
+
 + For the AP model:
 
 ```Shell
